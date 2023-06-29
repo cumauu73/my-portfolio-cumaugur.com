@@ -74,11 +74,14 @@ nav a:hover {
 .footer {
   text-align: center;
 }
-.aboutme-myworks {
+.aboutme {
   display: flex;
-  justify-content: center;
+  
 }
 .contact {
   display: flexbox;
   justify-content: center;
+}
+.cover img {
+  width: 100%;
 }
