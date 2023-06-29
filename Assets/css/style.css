@@ -20,7 +20,7 @@ header {
   background-image: url(../coveredit.jpg);
   background-size: cover;
   font-weight: bold;
-  padding: 10px 20px;
+  padding: 10px 10px;
   background-color: #f8a2ec;
   display: flex;
   justify-content: space-between;
@@ -62,7 +62,9 @@ nav a:hover {
 }
 
 .cover {
-  width: 100rem;
+  background-image: url(../cover.jpg);
+  height:16vh ;
+  background-size:cover;
 }
 
 
@@ -79,6 +81,8 @@ nav a:hover {
   display: flexbox;
   justify-content: center;
 }
-.cover img {
-  width: 100%;
+.cover {
+  display: flex;
+  justify-content: end;
+  
 }
