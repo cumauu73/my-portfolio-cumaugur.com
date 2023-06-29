@@ -23,6 +23,7 @@ body {
 }
 
 header {
+  font-weight: bold;
   padding: 10px 20px;
   background-color: #f8a2ec;
   display: flex;
