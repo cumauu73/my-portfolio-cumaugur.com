@@ -7,19 +7,30 @@
   scroll-behavior: smooth;
 }
 
-
 body {
-  background-color: rgb(212, 82, 195);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
+section {
+  min-height: 100vh;
+}
+.page-home {
+  background-color: rgb(36, 164, 138);
+}
+.page-my-works {
+  background-color: rgb(211, 79, 79);
+}
+.page-contact {
+  background-color: rgb(191, 64, 191);
+}
 
 header {
-  background-image: url(../coveredit.jpg);
+  background-color: turquoise;
+  background-image: linear-gradient(to right, turquoise , rgb(0, 140, 255));
   background-size: cover;
   font-weight: bold;
-  padding: 10px 10px;
+  padding: 7px 7px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -72,7 +83,23 @@ nav a:hover {
 
 
 footer {
-  background-color: rgba(39, 188, 233, 0.164);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 10px;
+  background-color: turquoise;
+  background-image: linear-gradient(to right, rgba(187, 223, 28, 0.379) , rgba(0, 140, 255, 0.345));
+  background-color: rgba(39, 188, 233, 0.333);
   text-align: center;
   margin-top: auto;
+}
+
+
+
+
+a[href$=".pdf"]:after {
+  content: url(../icons/pdfred25x33.png);
+  vertical-align: middle;
+  margin-left: 6px;
 }
