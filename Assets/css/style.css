@@ -34,6 +34,7 @@ header .logo {
   border-radius:100%;
   display: inline-block;
   vertical-align: middle;
+  margin-left: 10px;
 }
 
 header span {
@@ -54,6 +55,7 @@ nav ul {
   flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
+  align-items: center;
 }
 
 
@@ -63,7 +65,8 @@ nav a {
   color: black;
   text-decoration: none;
   font-size: 25px;
-  padding: 15px;
+  padding: 8px;
+  
 }
 
 nav a:hover {
@@ -99,4 +102,30 @@ a[href$=".pdf"]:after {
   content: url(../icons/pdfred25x33.png);
   vertical-align: middle;
   margin-left: 6px;  
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input, textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+textarea {
+  height: 100px;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #45a049;
 }
