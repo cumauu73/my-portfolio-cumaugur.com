@@ -18,7 +18,6 @@ header {
   background-color: turquoise;
   background-image: linear-gradient(to right, turquoise, rgb(0, 140, 255));
   background-size: cover;
-
   font-size: 20px;
   padding: 7px 7px;
   display: flex;
@@ -38,8 +37,8 @@ header .logo {
 }
 
 header span {
-  padding: 4px 4px 4px 8px;
-  margin-left:-11px;
+  padding: 4px 4px 5px 8px;
+  margin-left:-11.2px;
   font-weight: bold;
   font-size: 25px;
   border-top: 4px solid black;
@@ -52,6 +51,7 @@ header span {
 
 nav ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
 }
@@ -59,11 +59,11 @@ nav ul {
 
 
 nav a {
-
+  font-weight: bold;
   color: black;
   text-decoration: none;
-  font-size: 30px;
-  padding: 1rem;
+  font-size: 25px;
+  padding: 15px;
 }
 
 nav a:hover {
@@ -98,5 +98,5 @@ footer {
 a[href$=".pdf"]:after {
   content: url(../icons/pdfred25x33.png);
   vertical-align: middle;
-  margin-left: 6px;
+  margin-left: 6px;  
 }
