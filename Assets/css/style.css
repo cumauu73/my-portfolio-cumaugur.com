@@ -12,26 +12,17 @@ body {
   display: flex;
   flex-direction: column;
 }
-section {
-  min-height: 100vh;
-}
-.page-home {
-  background-color: rgb(36, 164, 138);
-}
-.page-my-works {
-  background-color: rgb(211, 79, 79);
-}
-.page-contact {
-  background-color: rgb(191, 64, 191);
-}
+
 
 header {
   background-color: turquoise;
-  background-image: linear-gradient(to right, turquoise , rgb(0, 140, 255));
+  background-image: linear-gradient(to right, turquoise, rgb(0, 140, 255));
   background-size: cover;
-  font-weight: bold;
+
+  font-size: 20px;
   padding: 7px 7px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 
@@ -41,14 +32,21 @@ header {
 header .logo {
   width: 120px;
   border: 4px solid rgb(0, 0, 0);
-  border-radius: 60px;
+  border-radius:100%;
   display: inline-block;
   vertical-align: middle;
 }
 
 header span {
-  margin-left: 20px;
-  font-size: 30px;
+  padding: 4px 4px 4px 8px;
+  margin-left:-11px;
+  font-weight: bold;
+  font-size: 25px;
+  border-top: 4px solid black;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  border-radius: 0px 25px 25px 0px;
+
 
 }
 
@@ -64,7 +62,6 @@ nav a {
 
   color: black;
   text-decoration: none;
-  font-weight: bold;
   font-size: 30px;
   padding: 1rem;
 }
@@ -79,7 +76,7 @@ nav a:hover {
 #contact ul {
   display: flex;
   list-style: none;
-} 
+}
 
 
 footer {
@@ -89,7 +86,7 @@ footer {
   align-items: center;
   font-weight: 10px;
   background-color: turquoise;
-  background-image: linear-gradient(to right, rgba(187, 223, 28, 0.379) , rgba(0, 140, 255, 0.345));
+  background-image: linear-gradient(to right, rgba(187, 223, 28, 0.379), rgba(0, 140, 255, 0.345));
   background-color: rgba(39, 188, 233, 0.333);
   text-align: center;
   margin-top: auto;
