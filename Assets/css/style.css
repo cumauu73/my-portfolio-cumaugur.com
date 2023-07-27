@@ -146,16 +146,12 @@ button:hover {
     justify-content: center;
   }
 
-
+  header span {
+    display: none;
+  }
   /* nav ul {
     flex-direction: column;
   } */
-  header span {
-    display: none;
-    
-  
-  
-  }
   
   
   
