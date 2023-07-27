@@ -98,11 +98,11 @@ footer {
 
 
 
-a[href$=".pdf"]:after {
+/* a[href$=".pdf"]:after {
   content: url(../icons/pdfred25x33.png);
   vertical-align: middle;
   margin-left: 6px;  
-}
+} */
 .container {
   max-width: 400px;
   margin: 0 auto;
@@ -129,3 +129,15 @@ button {
 button:hover {
   background-color: #45a049;
 }
+@media screen and (max-width: 480px) {
+  nav a {
+    font-size: 20px;
+  }
+
+  /* .logoname {
+    display: flex;
+    justify-content: center;
+
+  } */
+  
+  }
