@@ -72,6 +72,10 @@ nav a {
 nav a:hover {
   color: white;
 }
+a:visited {
+  color: black;
+  
+}
 
 
 
@@ -129,11 +133,29 @@ button {
 button:hover {
   background-color: #45a049;
 }
+
+
+
+
+
+
+
 @media screen and (max-width: 480px) {
-  nav a {
-    font-size: 20px;
+  
+  header {
+    justify-content: center;
   }
 
+  
+  /* header span {
+    display: none;
+    
+  
+  
+  } */
+  
+  
+  
   /* .logoname {
     display: flex;
     justify-content: center;
