@@ -1,3 +1,13 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+
+.box {
+  background-color: #4CAF50;
+  border: #4CAF50 solid;
+  width: 100px;
+  height: 100px;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
 * {
   padding: 0;
   margin: 0;
@@ -16,7 +26,7 @@ body {
 
 header {
   background-color: turquoise;
-  background-image: linear-gradient(to right, turquoise, rgb(0, 140, 255));
+  background-image: linear-gradient(to right, turquoise, rgb(255, 0, 200));
   background-size: cover;
   font-size: 20px;
   padding: 7px 7px;
@@ -29,7 +39,7 @@ header {
 }
 
 header .logo {
-  width: 120px;
+  width: 60px;
   
   display: inline-block;
   vertical-align: middle;
@@ -37,8 +47,7 @@ header .logo {
 }
 
 header span {
-  padding: 4px 4px 5px 8px;
-  margin-left:-11.2px;
+ 
   font-weight: bold;
   font-size: 25px;
  
